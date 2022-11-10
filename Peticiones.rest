@@ -1,0 +1,11 @@
+
+##################################################
+# EJEMPLO 1
+GET http://localhost:5000/Hola
+Content-Type: application/json
+
+
+##################################################
+#EJEMPLO 2 ESTE NO TIENE REFERENCIA EN EL CODIGO PERO CUANDO SE USA UN GET CAMBIA LA SINTAXIS PARA UTILIZAR ESTA HERRAMIENTA
+# GET http://localhost:5000/Registro/ObtenerRegistros
+###################################################
