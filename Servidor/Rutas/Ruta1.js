@@ -11,6 +11,7 @@ route.post("/reciveData", (req,res) => {
 
     if(user && id && control)
     {
+        console.log("");
         DatosNuevos(user, id, control)
         .then((data) => {
             console.log("Datos recibidos");
